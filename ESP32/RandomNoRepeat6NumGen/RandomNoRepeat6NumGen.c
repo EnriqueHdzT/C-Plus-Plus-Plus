@@ -21,7 +21,8 @@ void loop()
                 Serial.print(randomNumberArray[index]);
                 Serial.print(", ");
             }
-            Serial.println();}
+            Serial.println();
+        }
         else
         {
             Serial.println("Preciona '1' para generar un nuevo arreglo de 6 numeros aleatorios");
@@ -44,7 +45,7 @@ void generateRandomNumbers()
     }
 }
 
-bool isNumberInArray(int number, const int array[], int size)
+bool isNumberInArray(int number, unsigned char array[], int size)
 {
     for (int index = 0; index < size; ++index)
     {
