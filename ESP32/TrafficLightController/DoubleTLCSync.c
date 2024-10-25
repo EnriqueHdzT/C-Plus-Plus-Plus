@@ -4,7 +4,7 @@ int pins_leds_TL2[3] = {25, 26, 14};
 unsigned int counter = 0;
 unsigned char isTL1 = 0x01;
 
-byte traffic_light[22][3] = {
+byte traffic_light[4][3] = {
     {1, 0, 0},
     {1, 1, 0},
     {0, 1, 0},

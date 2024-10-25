@@ -1,5 +1,5 @@
 int pins_leds[3] = {18, 5, 4};
-byte traffic_light[22][3] = {
+byte traffic_light[4][3] = {
     {1, 0, 0},
     {1, 1, 0},
     {0, 1, 0},
